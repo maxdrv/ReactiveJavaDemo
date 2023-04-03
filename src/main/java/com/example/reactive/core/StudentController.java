@@ -1,5 +1,6 @@
 package com.example.reactive.core;
 
+import com.example.reactive.core.repository.Student;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.lang.Nullable;
