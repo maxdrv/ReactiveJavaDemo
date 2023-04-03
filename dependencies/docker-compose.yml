@@ -1,0 +1,12 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    ports:
+      - '65433:5432'
+    environment:
+      POSTGRES_DB: student
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: secret
+      POSTGRES_INITDB_ARGS: "-E=UTF8 --lc-collate=C --lc-ctype=C"
+
